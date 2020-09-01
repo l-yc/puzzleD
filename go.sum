@@ -57,6 +57,9 @@ github.com/qor/bindatafs v0.0.0-20180208124510-71f37a9bdd10 h1:Mp8bFbjgdiy7iwKRr
 github.com/qor/bindatafs v0.0.0-20180208124510-71f37a9bdd10/go.mod h1:jkceY6M1XV2crPunbFw+qlBRXLZ9jT+vTVLTd+iPqzw=
 github.com/qor/media v0.0.0-20200720100650-60c52edf57cb h1:LgWyG2gPmfiEukIo0yjlQ93oWWyTbmvX04rcOs4SDtk=
 github.com/qor/media v0.0.0-20200720100650-60c52edf57cb/go.mod h1:hzx9cTt5MpROMVIhwNhRJETc7e3a1J4bLNYflkcQ1wk=
+github.com/qor/media v0.0.0-20200827064742-8e080969adb5 h1:4pBu/qmcxkG76lX9jFpa/eWiudzOdeGZPdwHTfb4hTM=
+github.com/qor/media v0.0.0-20200828095155-bf3ea48ec599 h1:N0ztUqDH9WKLm+oe8TarIlT2vnxXfOQ9I/7iDGY18Cc=
+github.com/qor/media v0.0.0-20200828095155-bf3ea48ec599/go.mod h1:hzx9cTt5MpROMVIhwNhRJETc7e3a1J4bLNYflkcQ1wk=
 github.com/qor/middlewares v0.0.0-20170822143614-781378b69454 h1:+WCc1IigwWpWBxMFsmLUsIF230TakGHstDajd8aKDAc=
 github.com/qor/middlewares v0.0.0-20170822143614-781378b69454/go.mod h1:PejEyg3hS+Toh5m0AKRv2jK5br8qIoHLqmHrpg0WJYg=
 github.com/qor/oss v0.0.0-20191031055114-aef9ba66bf76 h1:J2Xj92efYLxPl3BiibgEDEUiMsCBzwTurE/8JjD8CG4=
@@ -87,6 +90,8 @@ golang.org/x/crypto v0.0.0-20191205180655-e7c4368fe9dd/go.mod h1:LzIPMQfyMNhhGPh
 golang.org/x/crypto v0.0.0-20200622213623-75b288015ac9/go.mod h1:LzIPMQfyMNhhGPhUkYOs5KpL4U8rLKemX1yGLhDgUto=
 golang.org/x/image v0.0.0-20191009234506-e7c1f5e7dbb8 h1:hVwzHzIUGRjiF7EcUjqNxk3NCfkPxbDKRdnNE1Rpg0U=
 golang.org/x/image v0.0.0-20191009234506-e7c1f5e7dbb8/go.mod h1:FeLwcggjj3mMvU+oOTbSwawSJRM1uh48EjtB4UJZlP0=
+golang.org/x/image v0.0.0-20200801110659-972c09e46d76 h1:U7GPaoQyQmX+CBRWXKrvRzWTbd+slqeSh8uARsIyhAw=
+golang.org/x/image v0.0.0-20200801110659-972c09e46d76/go.mod h1:FeLwcggjj3mMvU+oOTbSwawSJRM1uh48EjtB4UJZlP0=
 golang.org/x/net v0.0.0-20180218175443-cbe0f9307d01/go.mod h1:mL1N/T3taQHkDXs73rZJwtUhF3w3ftmwwsq0BUmARs4=
 golang.org/x/net v0.0.0-20181220203305-927f97764cc3/go.mod h1:mL1N/T3taQHkDXs73rZJwtUhF3w3ftmwwsq0BUmARs4=
 golang.org/x/net v0.0.0-20190404232315-eb5bcb51f2a3/go.mod h1:t9HGtf8HONx5eT2rtn7q6eTqICYqUVnKs3thJo3Qplg=

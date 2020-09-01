@@ -10,6 +10,8 @@ require (
 	github.com/microcosm-cc/bluemonday v1.0.4 // indirect
 	github.com/qor/admin v0.0.0-20200817104000-4fc895ffbb89
 	github.com/qor/bindatafs v0.0.0-20180208124510-71f37a9bdd10 // indirect
+	github.com/qor/media v0.0.0-20200828095155-bf3ea48ec599
 	github.com/qor/qor v0.0.0-20200729071734-d587cffbbb93
+	golang.org/x/image v0.0.0-20200801110659-972c09e46d76 // indirect
 	golang.org/x/net v0.0.0-20200822124328-c89045814202 // indirect
 )

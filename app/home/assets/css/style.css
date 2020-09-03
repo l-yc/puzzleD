@@ -1,15 +1,1 @@
-body {
-  display: flex;
-  flex-flow: row nowrap;
-}
-
-.sidebar {
-  display: flex;
-  flex-flow: column nowrap;
-  flex: 1;
-  max-width: 300px;
-}
-
-#dashboard {
-  flex: 1;
-}
+@import url("https://fonts.googleapis.com/css2?family=Exo+2");*{box-sizing:border-box}html,body{margin:0;padding:0;height:100%;border:none;font-family:'Exo 2', 'sans-serif'}body{display:flex;flex-flow:row nowrap}.sidebar{display:flex;flex-flow:column nowrap;flex:1;max-width:200px;background-color:#333}.sidebar>.item{display:block;margin:0;padding:.4em .6em;transition:all 0.1s ease-in;text-decoration:none;color:#eee}.sidebar>.item:hover{border-left:solid 4px #eee;cursor:pointer}main{flex:1;display:flex;flex-flow:column nowrap;padding:1em}main input#search{margin-bottom:1em;padding:.6em;font-size:1em}main table#puzzles{display:flex;flex-flow:column nowrap;background-color:#fff;color:#333}main table#puzzles tr{display:flex;padding:.6em .8em;margin:.2em;box-shadow:1px 1px 1.5px 1px #ccc}main table#puzzles th{flex:1;overflow-x:auto;text-align:start;font-weight:800}main table#puzzles td{flex:1;overflow-x:auto;text-align:start}main table#puzzles td input{width:100%}main table#puzzles thead tr{border-bottom:solid 2px #f70}main table#puzzles tbody tr:hover{background-color:#e6e6e6;cursor:pointer}

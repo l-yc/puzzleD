@@ -7,11 +7,17 @@
     </head>
     <body>
         <!-- page content -->
-        <div class="sidebar">
-          I am a sidebar
-        </div>
+        <nav class="sidebar">
+          <a class="item" href="data">Announcements</a>
+          <a class="item" href="analysis">Puzzles</a>
+          <a class="item" href="analysis">Hunts</a>
+          <a class="item" href="reports">Settings</a>
+          <a class="item" href="reports">About</a>
+        </nav>
+
         <main id="dashboard">
-          I am the content
+          <input id="search" type="search" placeholder="Search..."/>
+          <table id="puzzles"></table>
         </main>
         <!-- end of page -->
         <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>

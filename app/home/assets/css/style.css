@@ -1,0 +1,15 @@
+body {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.sidebar {
+  display: flex;
+  flex-flow: column nowrap;
+  flex: 1;
+  max-width: 300px;
+}
+
+#dashboard {
+  flex: 1;
+}

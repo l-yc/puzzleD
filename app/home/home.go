@@ -18,8 +18,8 @@ type Controller struct {
 }
 
 // Index home index page
-func (ctrl Controller) Index(w http.ResponseWriter, req *http.Request) {
-	ctrl.View.Execute("index", map[string]interface{}{}, req, w)
+func (ctrl Controller) Puzzles(w http.ResponseWriter, req *http.Request) {
+	ctrl.View.Execute("puzzles", map[string]interface{}{}, req, w)
 }
 
 func RouterFileServer(dir string) http.HandlerFunc {
@@ -56,7 +56,7 @@ func Configure(app config.Application) {
 	}
 
 	app.Router.Route("/app", func(r chi.Router) {
-		r.Get("/", controller.Index)
+		r.Get("/puzzles", controller.Puzzles)
 		r.Route("/assets/", func(r chi.Router) {
 			r.Get("/*", RouterFileServer("app/home/assets"))
 		})

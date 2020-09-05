@@ -21,9 +21,10 @@ func Configure(app config.Application) {
 	media.RegisterCallbacks(app.DB)
 
   // Create resources from GORM-backend model
-	user := Admin.AddResource(&models.User{})
-	user.IndexAttrs("Name")
-	user.EditAttrs("Name", "AuthoredPuzzles", "SolvedPuzzles")
+	//user := Admin.AddResource(&models.User{})
+	Admin.AddResource(&models.User{})
+	//user.IndexAttrs("Name")
+	//user.EditAttrs("Name", "AuthoredPuzzles", "SolvedPuzzles")
 
 	puzzle := Admin.AddResource(&models.Puzzle{})
 	puzzle.Meta(&admin.Meta{Name: "Description", Config: &admin.RichEditorConfig{
@@ -32,9 +33,10 @@ func Configure(app config.Application) {
 	//puzzleSolvedUserMeta := puzzle.Meta(&admin.Meta{Name: "AuthorID"})
 	//puzzleSolvedUserResource := puzzleSolvedUserMeta.Resource
 	//puzzleSolvedUserResource.IndexAttrs("Name")
+	puzzle.Meta(&admin.Meta{Name: "Authors", Type: "select_many"})
 
-	puzzle.IndexAttrs("Name", "Description", "Authors", "Solution")
-	puzzle.EditAttrs("Name", "Description", "Authors", "Solution")
+	//puzzle.IndexAttrs("Name", "Description", "Authors", "Solution")
+	//puzzle.EditAttrs("Name", "Description", "Authors", "Solution")
 
 	app.Router.Mount("/admin", Admin.NewServeMux("/admin"))
 }
